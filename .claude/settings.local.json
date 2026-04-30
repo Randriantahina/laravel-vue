@@ -1,0 +1,19 @@
+{
+    "permissions": {
+        "allow": [
+            "Bash(npm run *)",
+            "Bash(php artisan *)",
+            "Bash(composer *)",
+            "Bash(git add --all)",
+            "Bash(git commit -m *)",
+            "Bash(git diff *)",
+            "Bash(git log *)",
+            "Bash(git status)"
+        ],
+        "deny": [
+            "Bash(git push *)",
+            "Bash(php artisan migrate:fresh *)",
+            "Bash(rm -rf *)"
+        ]
+    }
+}

@@ -19,7 +19,12 @@
       "mcp__laravel__read_log_entries",
       "mcp__laravel__search_docs",
       "Bash(grep -E \"\\\\.php$\")",
-      "mcp__laravel-boost__database-schema"
+      "mcp__laravel-boost__database-schema",
+      "Bash(xargs grep *)",
+      "Bash(pnpm add *)",
+      "Bash(pnpm run *)",
+      "Bash(rm resources/js/routes/tasks.ts)",
+      "Bash(rmdir resources/js/routes)"
     ],
     "deny": [
       "Bash(git push *)",

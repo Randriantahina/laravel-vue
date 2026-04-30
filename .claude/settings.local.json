@@ -4,16 +4,27 @@
             "Bash(npm run *)",
             "Bash(php artisan *)",
             "Bash(composer *)",
-            "Bash(git add --all)",
+            "Bash(git add *)",
             "Bash(git commit -m *)",
             "Bash(git diff *)",
             "Bash(git log *)",
-            "Bash(git status)"
+            "Bash(git status)",
+            "mcp__laravel__application_info",
+            "mcp__laravel__browser_logs",
+            "mcp__laravel__database_connections",
+            "mcp__laravel__database_query",
+            "mcp__laravel__database_schema",
+            "mcp__laravel__get_absolute_url",
+            "mcp__laravel__last_error",
+            "mcp__laravel__read_log_entries",
+            "mcp__laravel__search_docs"
         ],
         "deny": [
             "Bash(git push *)",
             "Bash(php artisan migrate:fresh *)",
             "Bash(rm -rf *)"
         ]
-    }
+    },
+    "enabledMcpjsonServers": ["laravel-boost"],
+    "enableAllProjectMcpServers": true
 }
